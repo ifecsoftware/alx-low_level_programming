@@ -67,13 +67,13 @@
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/diffs-ce498cfb59b2.js"></script>
   
 
-  <title>alx-low_level_programming/README.md at master · muubaraq/alx-low_level_programming</title>
+  <title>alx-low_level_programming/0-malloc_checked.c at master · muubaraq/alx-low_level_programming</title>
 
 
 
     
 
-  <meta name="request-id" content="71DB:BFD3:305A8E3:318E7B2:633F510A" data-turbo-transient="true" /><meta name="html-safe-nonce" content="f60bdaaeae7f761c3cc74abc6403b1fd7ece94afc83de1ffc0b8ca4a2e8bbcfc" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tdXViYXJhcS9hbHgtbG93X2xldmVsX3Byb2dyYW1taW5nL3RyZWUvbWFzdGVyLzB4MEMtbW9yZV9tYWxsb2NfZnJlZSIsInJlcXVlc3RfaWQiOiI3MURCOkJGRDM6MzA1QThFMzozMThFN0IyOjYzM0Y1MTBBIiwidmlzaXRvcl9pZCI6IjQyOTM5MjEyMjQwMTUxMDM0NjAiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-turbo-transient="true" /><meta name="visitor-hmac" content="4971942334f0a498abaf26100249c8ff5e27825f30d2206210d3f2ac06208d1d" data-turbo-transient="true" />
+  <meta name="request-id" content="4090:6533:303EFB7:317606A:633F51F0" data-turbo-transient="true" /><meta name="html-safe-nonce" content="f60bdaaeae7f761c3cc74abc6403b1fd7ece94afc83de1ffc0b8ca4a2e8bbcfc" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tdXViYXJhcS9hbHgtbG93X2xldmVsX3Byb2dyYW1taW5nL3RyZWUvbWFzdGVyLzB4MEMtbW9yZV9tYWxsb2NfZnJlZSIsInJlcXVlc3RfaWQiOiI0MDkwOjY1MzM6MzAzRUZCNzozMTc2MDZBOjYzM0Y1MUYwIiwidmlzaXRvcl9pZCI6IjQyOTM5MjEyMjQwMTUxMDM0NjAiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-turbo-transient="true" /><meta name="visitor-hmac" content="5ab6d6dc3ca622d3985f724a4b21a2c6ac60c674e84e5ec6d098e51b73f026e8" data-turbo-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:468349580" data-turbo-transient>
 
@@ -111,11 +111,11 @@
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
     <meta name="apple-itunes-app" content="app-id=1477376905" />
-      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/1699f6b3b1c69f436804d024140ebece410e927a9748ff5178e6800bd08bc4b9/muubaraq/alx-low_level_programming" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="alx-low_level_programming/README.md at master · muubaraq/alx-low_level_programming" /><meta name="twitter:description" content="Basic script of C programming language. Contribute to muubaraq/alx-low_level_programming development by creating an account on GitHub." />
-      <meta property="og:image" content="https://opengraph.githubassets.com/1699f6b3b1c69f436804d024140ebece410e927a9748ff5178e6800bd08bc4b9/muubaraq/alx-low_level_programming" /><meta property="og:image:alt" content="Basic script of C programming language. Contribute to muubaraq/alx-low_level_programming development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="alx-low_level_programming/README.md at master · muubaraq/alx-low_level_programming" /><meta property="og:url" content="https://github.com/muubaraq/alx-low_level_programming" /><meta property="og:description" content="Basic script of C programming language. Contribute to muubaraq/alx-low_level_programming development by creating an account on GitHub." />
+      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/1699f6b3b1c69f436804d024140ebece410e927a9748ff5178e6800bd08bc4b9/muubaraq/alx-low_level_programming" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="alx-low_level_programming/0-malloc_checked.c at master · muubaraq/alx-low_level_programming" /><meta name="twitter:description" content="Basic script of C programming language. Contribute to muubaraq/alx-low_level_programming development by creating an account on GitHub." />
+      <meta property="og:image" content="https://opengraph.githubassets.com/1699f6b3b1c69f436804d024140ebece410e927a9748ff5178e6800bd08bc4b9/muubaraq/alx-low_level_programming" /><meta property="og:image:alt" content="Basic script of C programming language. Contribute to muubaraq/alx-low_level_programming development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="alx-low_level_programming/0-malloc_checked.c at master · muubaraq/alx-low_level_programming" /><meta property="og:url" content="https://github.com/muubaraq/alx-low_level_programming" /><meta property="og:description" content="Basic script of C programming language. Contribute to muubaraq/alx-low_level_programming development by creating an account on GitHub." />
       
     <link rel="assets" href="https://github.githubassets.com/">
-      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/110723807/ws?session=eyJ2IjoiVjMiLCJ1IjoxMTA3MjM4MDcsInMiOjk1OTE1OTAzNywiYyI6MjUyNjQxOTAxMywidCI6MTY2NTA5Mzg5OX0=--3133216c7b9e5c989070629def4a80418aae154d9ec9acf5f902ec31fd32ff61" data-refresh-url="/_alive" data-session-id="3a1fef1e02e7b1cca51b5435a5486f751150b19b13b0c71aeeaadc1f8a7666e7">
+      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/110723807/ws?session=eyJ2IjoiVjMiLCJ1IjoxMTA3MjM4MDcsInMiOjk1OTE1OTAzNywiYyI6MzAyOTQxMTM4MCwidCI6MTY2NTA5NDEyOX0=--a8e6772c484b96c1e32fef2746561f92aeb7adc24857059cd0d02156f90ce1b5" data-refresh-url="/_alive" data-session-id="3a1fef1e02e7b1cca51b5435a5486f751150b19b13b0c71aeeaadc1f8a7666e7">
       <link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-b87581f5816c.js">
 
 
@@ -145,7 +145,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md" data-turbo-transient>
+    <link rel="canonical" href="https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c" data-turbo-transient>
   <meta name="turbo-body-classes" content="logged-in env-production page-responsive page-blob">
 
 
@@ -236,7 +236,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" value="XOfGo8OHTcNPMoswtLnttY1XDoFWlDGileZT0p6ieQbe9fceeNmQUIeCMKl7q5wmCChkPgeRFQ1YhgH9ZlfLBA" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" value="XgTSowrqOEslgVM6GX9bZN9VT1o85jD4H_VBrA6ZYV_cFuMesbTl2O0x6KPWbSr3Wiol5W3jFFfSlROD9mzTXQ" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -435,7 +435,7 @@
 
   <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:explore" data-turbo="false" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">Explore</a>
 
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;ifecsoftware&quot;,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="29f5fd5721356131bbf8b71308c4c9b9f2a0e2884ee92a15b8f7469f25ca9214" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;ifecsoftware&quot;,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="4d54c613ad127e26dd6fc937e5daccbbc7161321498db95f161cf5940272d1f9" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-turbo="false" href="/settings/profile">Settings</a>
 
@@ -443,7 +443,7 @@
       <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/110723807?s=40&amp;v=4" width="20" height="20" alt="@ifecsoftware" />
       ifecsoftware
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="FOEX0DZWO9KibZPleVsGwMApBzQ0Ej113aC-Gmf_xeyL0YYKruz5rASp3L42kLcVNCA5-IcHn0jkogwkL4fnzQ" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="KslTVZQGdEMAK3732ky_SA0aIgj5k38-yHfI5OC2fr61-cKPDLy2PabvMayVhw6d-RMcxEqG3QPxdXraqM5cnw" />
       <button
         type="submit"
         class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
@@ -478,7 +478,7 @@
     <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
         
 
-<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTEwNzIzODA3IiwidCI6MTY2NTA5Mzg5OX0=--b2461f6b3089a1491e29ca054d968c41e3b7d9877a01b53c24075203d6d1c8de" data-indicator-mode="none" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-view-component="true" class="js-socket-channel">
+<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTEwNzIzODA3IiwidCI6MTY2NTA5NDEyOX0=--d93440b67d56795c81a5b9cbaebb2416c72d36238fb85ed9337afd7cc0f5f72d" data-indicator-mode="none" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-view-component="true" class="js-socket-channel">
   <a id="AppHeader-notifications-button" href="/notifications"
     class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
 
@@ -631,7 +631,7 @@
   <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit" aria-label="command palette">
     <command-palette
       class="command-palette color-bg-default rounded-3 border color-shadow-small"
-      return-to=/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md
+      return-to=/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c
       user-id="110723807"
       activation-hotkey="Mod+k,Mod+Alt+k"
       command-mode-hotkey="Mod+Shift+k"
@@ -1597,7 +1597,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="8c57d3890f16988b3513de807f113e782df0e58a694257c6bd84954d47aaaedb" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
+        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="bc2e54c4a9142614e8a8f00d65a0730f938a769286d211fc61015cde77e0912a" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
             <span
               hidden
               
@@ -1649,7 +1649,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="nxJ9qOSloWwA4070JuwD0RR0Fm7VAJteGgR5Ozruv2TRSlB64TWYmLlUOODpog60EuepKGJnBYqSJPUHCjaRQA" autocomplete="off" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="MjIwo7Xspb6kG5bVlYKWRxH7xeFusgjKxN-edPbqqot8ah1xsHycSh2s4MFazJsiF2h6p9nVlh5M_xJIxjKErw" autocomplete="off" />
 
                 <input type="hidden" name="repository_id" value="468349580">
 
@@ -1777,7 +1777,7 @@
           hidden
         >
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pPKGSzxBwxdtO3pOg7mlRDjBAeASpsgw3swIMvsCzQTqqquZOdH649SMDFpM96ghPlK-pqXBVuRW7IQOy9rjIA" autocomplete="off" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="KRtxrUWwBqVQ94-3nf1thC3aXGT-Fl-VKc7h6oZT2IRnQ1x_QCA_UelA-aNSs2DhK0njIklxwUGh7m3Wtov2oA" autocomplete="off" />
 
               <input type="hidden" name="repository_id" value="468349580">
 
@@ -1928,7 +1928,7 @@
 
   <li>
         <div data-view-component="true" class="BtnGroup">
-        <a icon="repo-forked" href="/muubaraq/alx-low_level_programming/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="ed3a8287bf5793148b1ec464bb5f6730385656c10dfab0151d187e21191f0c0a" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of muubaraq/alx-low_level_programming" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+        <a icon="repo-forked" href="/muubaraq/alx-low_level_programming/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="83c8fece2ba67bd995d9ef0ace568c8265584fe74ed85d0c88de302705f25112" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of muubaraq/alx-low_level_programming" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>Fork
           <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="1" data-view-component="true" class="Counter">1</span>
@@ -1946,13 +1946,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-491112">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-e07968">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-491112"
+        id="filter-menu-e07968"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -1993,18 +1993,18 @@
 </template>
 
   <div data-view-component="true" class="js-toggler-container js-social-container starring-container BtnGroup d-flex">
-    <form class="starred js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/muubaraq/alx-low_level_programming/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="swZGQp1stDcMLXDdYqD4JFGJauhEARi5002zqyFXPh6torBZWrSCWjoYYPgjytrXOUe_CIhfj28n7mWgIhf-Ew" autocomplete="off" />
-        <input type="hidden" value="LIGpIkFsooPblgK1-lCl3XcM2HamyWQqqowgIDMrDUIyJV85hrSU7u2jEpC7OocuH8INlmqX8_xeL_YrMGvNTw" data-csrf="true" class="js-confirm-csrf-token" />
+    <form class="starred js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/muubaraq/alx-low_level_programming/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="5pUCx1PBn4vcM-r_EA23Af_HYkeHroibwCrK6f93PJb4MfTclBmp5uoG-tpRZ5Xylwm3p0vwH000iRzi_Df8mw" autocomplete="off" />
+        <input type="hidden" value="3zFw1dKae-lRXFdxPgr0VFoL_hOd_SKLSzHnyDTa4cbBlYbOFUJNhGdpR1R_YNanMsUr81GjtV2_kjHDN5ohyw" data-csrf="true" class="js-confirm-csrf-token" />
       <input type="hidden" name="context" value="repository">
-        <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="f75eb1c6566c771b7e0691068dda825c62f6174a044a8aa78ff2481e9afa75b4" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (2)" type="submit" data-view-component="true" class="rounded-left-2 border-right-0 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
+        <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="245d8b22c8b5fe2f9d0c428c17a01d02c88ba5ad381ca16c8062d5ec0ea04b51" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (2)" type="submit" data-view-component="true" class="rounded-left-2 border-right-0 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg><span data-view-component="true" class="d-inline">
           Starred
 </span>          <span id="repo-stars-counter-unstar" aria-label="2 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="2" data-view-component="true" class="Counter js-social-count">2</span>
 </button></form>
-    <form class="unstarred js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/muubaraq/alx-low_level_programming/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="X9a3PBPLyFYrXnrDETSKMBGZNl_eoO_jkuXx3DUCnMGQyuV4x6QG6YNxwW43YXEqM-T2VRD9_a8NTGzug1OScg" autocomplete="off" />
+    <form class="unstarred js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/muubaraq/alx-low_level_programming/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="MBuAnnGr_wBUT5ZcaU_WrKPRMl0Swn7mMFdpLPSjnhT_B9LapcQxv_xgLfFPGi22gazyV9yfbKqv_vQeQvKQpw" autocomplete="off" />
       <input type="hidden" name="context" value="repository">
-        <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="3d48f3dee235429a8bcccd18a6886af629ee995dca0b0f701624b6b64c4e4dab" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (2)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
+        <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="bba6fd0000278fda7f11cb83bfcff419cc13a15934069f5cf3b2b862c4623368" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (2)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg><span data-view-component="true" class="d-inline">
           Star
@@ -2022,13 +2022,13 @@
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-a23ff2">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-b8a241">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-a23ff2"
+        id="filter-menu-b8a241"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2220,7 +2220,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/muubaraq/alx-low_level_programming/blob/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/README.md">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/muubaraq/alx-low_level_programming/blob/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/0-malloc_checked.c">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -2228,7 +2228,7 @@
   <details
     class="js-branch-select-menu details-reset details-overlay mr-0 mb-0 "
     id="branch-select-menu"
-    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="0b1db541d01f6d048cb3a8c830d25ab257860573b2c0a2723354f72e8a543523">
+    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="d8689d5a4056c9a2a638f69295d48f19d6cc859d69e9cdf26ce7d9d9390c09ef">
     <summary class="btn css-truncate"
             data-hotkey="w"
             title="Switch branches or tags">
@@ -2307,7 +2307,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/muubaraq/alx-low_level_programming/blob/{{ urlEncodedRefName }}/0x0C-more_malloc_free/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/muubaraq/alx-low_level_programming/blob/{{ urlEncodedRefName }}/0x0C-more_malloc_free/0-malloc_checked.c" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2347,7 +2347,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/muubaraq/alx-low_level_programming/blob/{{ urlEncodedRefName }}/0x0C-more_malloc_free/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/muubaraq/alx-low_level_programming/blob/{{ urlEncodedRefName }}/0x0C-more_malloc_free/0-malloc_checked.c" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2378,7 +2378,7 @@
 </div>
 
   <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/muubaraq/alx-low_level_programming"><span>alx-low_level_programming</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/muubaraq/alx-low_level_programming/tree/master/0x0C-more_malloc_free"><span>0x0C-more_malloc_free</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/muubaraq/alx-low_level_programming"><span>alx-low_level_programming</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/muubaraq/alx-low_level_programming/tree/master/0x0C-more_malloc_free"><span>0x0C-more_malloc_free</span></a></span><span class="separator">/</span><strong class="final-path">0-malloc_checked.c</strong>
   </h2>
     <a href="/muubaraq/alx-low_level_programming/find/master" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
 </a>
@@ -2389,7 +2389,7 @@
 </summary>
   <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
         <li class="d-block d-md-none">
-          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="02da6a379baa6e79166f36181167d11145d7c8e11b806edcc802378d33dc5d8a" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/muubaraq/alx-low_level_programming/find/master">
+          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="3d0c6f6c31e21aba6636eb2d926cf2b61fef8df466c811415b987c0cad08ecae" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/muubaraq/alx-low_level_programming/find/master">
             <span class="flex-auto">Go to file</span>
             <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>        </li>
@@ -2401,13 +2401,13 @@
 </button>        </li>
         <li class="dropdown-divider" role="none"></li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="0x0C-more_malloc_free/README.md" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="0x0C-more_malloc_free/0-malloc_checked.c" data-view-component="true" class="dropdown-item cursor-pointer">
     
             Copy path
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/muubaraq/alx-low_level_programming/blob/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/README.md" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/muubaraq/alx-low_level_programming/blob/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/0-malloc_checked.c" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -2439,7 +2439,7 @@
     <include-fragment src="/muubaraq/alx-low_level_programming/spoofed_commit_check/6bc297f48e10ec77607afdae8409946eee6a09c8" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-  <include-fragment src="/muubaraq/alx-low_level_programming/contributors/master/0x0C-more_malloc_free/README.md" class="commit-loader">
+  <include-fragment src="/muubaraq/alx-low_level_programming/contributors/master/0x0C-more_malloc_free/0-malloc_checked.c" class="commit-loader">
     <div class="Box-header d-flex flex-items-center">
       <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
       <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -2462,75 +2462,34 @@
 
 
 
-    <readme-toc>
-
+  
     <div data-target="readme-toc.content" class="Box mt-3 position-relative">
       
   <div
-    class="Box-header js-blob-header blob-header js-sticky js-position-sticky top-0 p-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
-    style="position: sticky; z-index: 1;"
+    class="Box-header js-blob-header py-2 pr-2 d-flex flex-shrink-0 flex-md-row flex-items-center"
+    
   >
-
-      <details
-  data-target="readme-toc.trigger"
-  data-menu-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;trigger&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}"
-  data-menu-hydro-click-hmac="3dab68925c14e0f1b40ec59c4f777332455eeb852a40b98b64c95a49592e4bf9"
-  class="dropdown details-reset details-overlay"
->
-  <summary
-    class="btn btn-octicon m-0 mr-2 p-2"
-    aria-haspopup="true"
-    aria-label="Table of Contents">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-list-unordered">
-    <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
-</svg>
-  </summary>
-
-
-  <details-menu class="SelectMenu" role="menu">
-    <div class="SelectMenu-modal rounded-3 mt-1" style="max-height:340px;">
-
-
-      <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;">
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="e8f6bca75f705977ded82b97dd159cd8b378b180a9a288252d4ca16a4b8183bd" href="#0-malloc_checkedc">0-malloc_checked.c</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="e8f6bca75f705977ded82b97dd159cd8b378b180a9a288252d4ca16a4b8183bd" href="#1-string_nconcatc">1-string_nconcat.c</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="e8f6bca75f705977ded82b97dd159cd8b378b180a9a288252d4ca16a4b8183bd" href="#2-callocc">2-calloc.c</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="e8f6bca75f705977ded82b97dd159cd8b378b180a9a288252d4ca16a4b8183bd" href="#3-array_rangec">3-array_range.c</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="e8f6bca75f705977ded82b97dd159cd8b378b180a9a288252d4ca16a4b8183bd" href="#100-reallocc">100-realloc.c</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="e8f6bca75f705977ded82b97dd159cd8b378b180a9a288252d4ca16a4b8183bd" href="#101-mulc">101-mul.c</a>
-      </div>
-    </div>
-  </details-menu>
-</details>
 
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      18 lines (12 sloc)
+      18 lines (17 sloc)
       <span class="file-info-divider"></span>
-    347 Bytes
+    313 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
-        <div class="BtnGroup">
-      <a href="/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md?plain=1" data-permalink-href="/muubaraq/alx-low_level_programming/blob/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/README.md?plain=1" aria-label="Display the source blob" data-view-component="true" class="source tooltipped tooltipped tooltipped-n  js-permalink-replaceable-link btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
-    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
-</svg>
-</a>      <a href="/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md" data-permalink-href="/muubaraq/alx-low_level_programming/blob/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/README.md" aria-label="Display the rendered blob" data-view-component="true" class="rendered tooltipped tooltipped tooltipped-n selected js-permalink-replaceable-link btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file">
-    <path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 00.25-.25V6h-2.75A1.75 1.75 0 019 4.25V1.5H3.75zm6.75.062V4.25c0 .138.112.25.25.25h2.688a.252.252 0 00-.011-.013l-2.914-2.914a.272.272 0 00-.013-.011zM2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16h-9.5A1.75 1.75 0 012 14.25V1.75z"></path>
-</svg>
-</a>  </div>
-
+      
 
     <div class="BtnGroup">
-        <a data-permalink-href="/muubaraq/alx-low_level_programming/raw/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/README.md" href="/muubaraq/alx-low_level_programming/raw/master/0x0C-more_malloc_free/README.md" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
-</a>          <a data-permalink-href="/muubaraq/alx-low_level_programming/blame/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/README.md" href="/muubaraq/alx-low_level_programming/blame/master/0x0C-more_malloc_free/README.md" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
+        <a data-permalink-href="/muubaraq/alx-low_level_programming/raw/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/0-malloc_checked.c" href="/muubaraq/alx-low_level_programming/raw/master/0x0C-more_malloc_free/0-malloc_checked.c" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
+</a>          <a data-permalink-href="/muubaraq/alx-low_level_programming/blame/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/0-malloc_checked.c" href="/muubaraq/alx-low_level_programming/blame/master/0x0C-more_malloc_free/0-malloc_checked.c" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
 </a>    </div>
 
     <div class="d-flex">
         
 <div class="ml-1" data-test-selector="edit-dropdown-menu-component">
-  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/muubaraq/alx-low_level_programming/edit/master/0x0C-more_malloc_free/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="U7G9SgFZ81OHvwpMBDhimkKf1qP4-lFG3-YHuKmZCjWU0yLgEpWNMr7U0YqWIoGN3j5jHdv06ueMlF-X8WzOow" autocomplete="off" />
+  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/muubaraq/alx-low_level_programming/edit/master/0x0C-more_malloc_free/0-malloc_checked.c" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6noR-SNXYZi-dyU9bUyI9nwNcI1rSM_bxKTXlzyGDsQvij2kltQEo2nmtIiKS22ZqNIEoq0crBeoC8WwIuc4PA" autocomplete="off" />
       <button title="Fork this project and edit the file" data-hotkey="e" data-disable-with="" data-test-selector="edit-icon-button" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
 </svg>
@@ -2540,7 +2499,7 @@
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/muubaraq/alx-low_level_programming/edit/master/0x0C-more_malloc_free/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="tN-7O9dpn5yau4i2L8-Uz9w474NPQ6T0c0CiESNoDRBzvSSRxKXh_aPQU3C91XfYQJlaPWxNH1UgMvo-e53Jhg" autocomplete="off" />
+          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/muubaraq/alx-low_level_programming/edit/master/0x0C-more_malloc_free/0-malloc_checked.c" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="GxXDoZkQJnj-Lj420AAbhzSOhU1YCI0XmW0fekEcAgve5e_8LJNDQym_r4M3B_7o4FHxYp5c7tv1wg1dX3008w" autocomplete="off" />
               <button title="Fork this project and edit the file" data-test-selector="edit-text-button" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-default text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
@@ -2559,10 +2518,10 @@
 
         
 <div data-test-selector="remote-clipboard-copy">
-  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/muubaraq/alx-low_level_programming/raw/master/0x0C-more_malloc_free/README.md" data-action="click:remote-clipboard-copy#remoteCopy">
+  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/muubaraq/alx-low_level_programming/raw/master/0x0C-more_malloc_free/0-malloc_checked.c" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="ae97dcf4fb0d75db5d23408d31fae85132acda899044ab2e5e93e8c484ee4dbd" aria-label="Copy raw contents">
+  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="b552d2aa7ec8356f704e7fe59c67a70de270a00b4cd0460524bf91a96e8f3e73" aria-label="Copy raw contents">
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
     <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
 </svg>
@@ -2587,7 +2546,7 @@
 </remote-clipboard-copy></div>
 
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/muubaraq/alx-low_level_programming/delete/master/0x0C-more_malloc_free/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="SGOZDohKM3PkNviRT4cZtHd7u-gLxuRsjd5aTdzalPl9qLqw4eeMEYjXLxdZNhtPnSgrDlyV-wj3BFh_1N_gjQ" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/muubaraq/alx-low_level_programming/delete/master/0x0C-more_malloc_free/0-malloc_checked.c" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="T6Zflpc60imzZc9ibYjajDyrrrcApdWzG8NE6oFGGuG77N-qyh3D3kwoWUf2zxsEYmndMIV3ZSoSzTq8xrRlgA" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -2600,7 +2559,7 @@
     <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
       <details class="dropdown details-reset details-overlay d-inline-block">
         <summary
-          class="js-blob-dropdown-click btn-octicon p-2"
+          class="js-blob-dropdown-click btn-octicon"
           aria-haspopup="true"
           aria-label="possible actions"
           data-test-selector="small-screen-more-options"
@@ -2620,15 +2579,15 @@
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/muubaraq/alx-low_level_programming/raw/master/0x0C-more_malloc_free/README.md">
+            <a class="dropdown-item" href="/muubaraq/alx-low_level_programming/raw/master/0x0C-more_malloc_free/0-malloc_checked.c">
               View raw
             </a>
           </li>
             <li>
-              <remote-clipboard-copy class="dropdown-item" data-src="/muubaraq/alx-low_level_programming/raw/master/0x0C-more_malloc_free/README.md" data-action="click:remote-clipboard-copy#remoteCopy">
+              <remote-clipboard-copy class="dropdown-item" data-src="/muubaraq/alx-low_level_programming/raw/master/0x0C-more_malloc_free/0-malloc_checked.c" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/README.md&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="ae97dcf4fb0d75db5d23408d31fae85132acda899044ab2e5e93e8c484ee4dbd">
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:468349580,&quot;originating_url&quot;:&quot;https://github.com/muubaraq/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c&quot;,&quot;user_id&quot;:110723807}}" data-hydro-click-hmac="b552d2aa7ec8356f704e7fe59c67a70de270a00b4cd0460524bf91a96e8f3e73">
                     Copy raw contents
 </span></span>
   <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
@@ -2651,20 +2610,20 @@
 </span>
 </remote-clipboard-copy>            </li>
             <li>
-              <a class="dropdown-item" href="/muubaraq/alx-low_level_programming/blame/master/0x0C-more_malloc_free/README.md">
+              <a class="dropdown-item" href="/muubaraq/alx-low_level_programming/blame/master/0x0C-more_malloc_free/0-malloc_checked.c">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/muubaraq/alx-low_level_programming/edit/master/0x0C-more_malloc_free/README.md">Edit file</a>
+                <a class="dropdown-item" href="/muubaraq/alx-low_level_programming/edit/master/0x0C-more_malloc_free/0-malloc_checked.c">Edit file</a>
               </li>
                 <li>
                   <a class="dropdown-item js-github-dev-shortcut js-blob-dropdown-click" data-test-selector="small-screen-github-dev-link" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:468349580,&quot;actor_id&quot;:110723807,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}" href="https://github.dev/">Open with github.dev</a>
                 </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/muubaraq/alx-low_level_programming/delete/master/0x0C-more_malloc_free/README.md">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/muubaraq/alx-low_level_programming/delete/master/0x0C-more_malloc_free/0-malloc_checked.c">Delete file</a>
               </li>
         </ul>
       </details>
@@ -2672,25 +2631,143 @@
 </div>
 
 
-        <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h3 dir="auto"><a id="user-content-0-malloc_checkedc" class="anchor" aria-hidden="true" href="#0-malloc_checkedc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>0-malloc_checked.c</h3>
-<p dir="auto">Allocates memory using malloc</p>
-<h3 dir="auto"><a id="user-content-1-string_nconcatc" class="anchor" aria-hidden="true" href="#1-string_nconcatc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>1-string_nconcat.c</h3>
-<p dir="auto">Concatenates two strings</p>
-<h3 dir="auto"><a id="user-content-2-callocc" class="anchor" aria-hidden="true" href="#2-callocc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>2-calloc.c</h3>
-<p dir="auto">Allocates memory for an array, using malloc</p>
-<h3 dir="auto"><a id="user-content-3-array_rangec" class="anchor" aria-hidden="true" href="#3-array_rangec"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>3-array_range.c</h3>
-<p dir="auto">Creates an array of integers</p>
-<h3 dir="auto"><a id="user-content-100-reallocc" class="anchor" aria-hidden="true" href="#100-reallocc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>100-realloc.c</h3>
-<p dir="auto">Reallocates a memory block using malloc and free</p>
-<h3 dir="auto"><a id="user-content-101-mulc" class="anchor" aria-hidden="true" href="#101-mulc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>101-mul.c</h3>
-<p dir="auto">Multiplies two positive numbers</p>
-</article>
-  </div>
+      
+    <div itemprop="text" class="Box-body p-0 blob-wrapper data type-c  gist-border-0">
+
+        
+<div class="js-check-bidi js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+  
+    <span>
+      This file contains bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
+
+
+  <div data-view-component="true" class="flash-action">        <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">    Show hidden characters
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+</span></template>
+
+  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="C" data-tagsearch-path="0x0C-more_malloc_free/0-malloc_checked.c">
+        <tr>
+          <td id="L1" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="LC1" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">&quot;</span>main.h<span class="pl-pds">&quot;</span></span></td>
+        </tr>
+        <tr>
+          <td id="L2" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="LC2" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">&lt;</span>stdlib.h<span class="pl-pds">&gt;</span></span></td>
+        </tr>
+        <tr>
+          <td id="L3" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span>*</span></td>
+        </tr>
+        <tr>
+          <td id="L4" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * malloc_checked - allocates memory.</span></td>
+        </tr>
+        <tr>
+          <td id="L5" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * @b: amount of bytes.</span></td>
+        </tr>
+        <tr>
+          <td id="L6" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> *</span></td>
+        </tr>
+        <tr>
+          <td id="L7" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * Return: pointer to the allocated memory.</span></td>
+        </tr>
+        <tr>
+          <td id="L8" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * if malloc fails, status value is equal to 98.</span></td>
+        </tr>
+        <tr>
+          <td id="L9" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> <span class="pl-c">*/</span></span></td>
+        </tr>
+        <tr>
+          <td id="L10" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="10"></td>
+          <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">void</span> *<span class="pl-en">malloc_checked</span>(<span class="pl-k">unsigned</span> <span class="pl-k">int</span> b)</td>
+        </tr>
+        <tr>
+          <td id="L11" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="11"></td>
+          <td id="LC11" class="blob-code blob-code-inner js-file-line">{</td>
+        </tr>
+        <tr>
+          <td id="L12" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="12"></td>
+          <td id="LC12" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">char</span> *p;</td>
+        </tr>
+        <tr>
+          <td id="L13" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="13"></td>
+          <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L14" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="14"></td>
+          <td id="LC14" class="blob-code blob-code-inner js-file-line">	p = <span class="pl-c1">malloc</span>(b);</td>
+        </tr>
+        <tr>
+          <td id="L15" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="15"></td>
+          <td id="LC15" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">if</span> (p == <span class="pl-c1">NULL</span>)</td>
+        </tr>
+        <tr>
+          <td id="L16" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="16"></td>
+          <td id="LC16" class="blob-code blob-code-inner js-file-line">		<span class="pl-c1">exit</span>(<span class="pl-c1">98</span>);</td>
+        </tr>
+        <tr>
+          <td id="L17" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="17"></td>
+          <td id="LC17" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">return</span> (p);</td>
+        </tr>
+        <tr>
+          <td id="L18" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="18"></td>
+          <td id="LC18" class="blob-code blob-code-inner js-file-line">}</td>
+        </tr>
+  </table>
+</div>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-default border color-border-default rounded-2" aria-label="Inline file action toolbar">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
+    <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+</svg>
+    </summary>
+    <details-menu>
+
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se ml-2 mt-2"
+      style="width:185px"
+      >
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" aria-label="Copy lines">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" aria-label="Copy permalink">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/muubaraq/alx-low_level_programming/blame/6bc297f48e10ec77607afdae8409946eee6a09c8/0x0C-more_malloc_free/0-malloc_checked.c">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/muubaraq/alx-low_level_programming/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
 
     </div>
 
-  </readme-toc>
+    </div>
+
 
   
 
